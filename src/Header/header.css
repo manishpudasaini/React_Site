@@ -1,0 +1,61 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    background-color: #282A35;  
+}
+.left {
+  color: rgb(187, 181, 176);
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.left span{
+  font-size: 4rem;
+   color: rgb(240, 116, 33);
+
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.right span {
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(240, 116, 33);
+  font-size: x-large;
+}
+.right span:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.9s;
+  color:white;
+}
+.tick{
+    margin: 10px;
+}
+.tick span{
+    color: white;
+}
+
+.contentButton{
+    padding: 0.7em;
+    border-radius: 20px;
+    background-color: red;
+    color:rgb(232, 248, 243) ;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+
+}
+.contentButton:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+

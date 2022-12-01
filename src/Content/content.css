@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 55rem;
+    
+}
+.firstContent{
+    font-weight: bold;
+    color: white;
+    margin-top: 15rem;
+}
+
+.secondContent{
+    font-size: 6rem;
+    color: white;
+
+}
+.secondContent span{
+    color: orange;
+}
+
+
